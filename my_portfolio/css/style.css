@@ -246,7 +246,7 @@
     margin-left: 20%;
 }
 
-.hr1 {
+/* .hr1 {
     width: 150px;
     border: 8px solid #bbc8dd;
     border-radius: 10px;
@@ -256,4 +256,324 @@
     width: 150px;
     border: 8px solid #2e4975;
     border-radius: 10px;
+} */
+
+.progress{
+    width: 150px !important;
+    margin: 5px 0px 0px 70px;
 }
+
+.progress-bar {
+    background-color: #bbc8dd;
+}
+
+.cv-input {
+    padding-left: 5px;
+    outline: none;
+    margin: 10px;
+    background-color: #bbc8dd;
+    border: none;
+    color: gray;
+    border-bottom: 2px solid gray;
+}
+
+.cv-input:focus {
+    padding-left: 5px;
+    outline: none;
+    /* margin: 10px; */
+    background-color: #bbc8dd;
+    border: none;
+    color: gray;
+    border-bottom: 2px solid gray;
+}
+
+.cv-inp {
+    margin-left: 0px;
+}
+
+.cv-btn {
+    margin-left: 25%;
+    outline: none;
+    border: none;
+    background-color: #bbc8dd;
+    /* margin: 5px auto; */
+    font-size: 20px;
+    color: white;
+
+}
+
+.cv-footer {
+    margin: 0px;
+    height: 80px;
+}
+
+.cv-footer > div {
+    margin: auto;
+    text-align: center;
+
+}
+
+.cv-footer > div > a > i {
+    font-size: 30px;
+    margin: 15px 3px 0px ;
+    color: black;
+}
+
+.cp {
+    color: gray;
+}
+
+/* ````````````````````````` Portfolio ``````````````````````` */
+
+.prt-nav {
+    width: 100%;
+    z-index: 1;
+    /* width: 100%; */
+    /* font-size: 20px; */
+    /* margin: 10px; */
+    position: absolute;
+    top: 10px;
+    /* left: 38%; */
+    /* text-align: center; */
+    font-size: 20px;
+}
+
+.prt-nav > div > ul > li > a {
+    color: #00000094;
+    font-weight: bold;
+}
+
+.prt-nav > div > ul > li > a:hover {
+    box-shadow: 0 0 1px 0px black;
+}
+.nav-btn {
+    z-index: 1;
+}
+
+/* .prt-quote {
+    max-width: 600px;
+    position: absolute;
+    top: 35%;
+    left: 30%;
+    text-align: center;
+
+    color: white;
+    font-weight: bold;
+}
+
+.prt-quote > h1 {
+    font-size: 75px;
+    text-shadow: 0 0 8px #dbe5f1;
+}
+.prt-quote > h4 {
+    font-size: 39px;
+    text-shadow: 0 0 8px #dbe5f1;
+} */
+
+.prt-features {
+    background-color: #f7f8fa;
+    text-align: center;
+    padding: 8% 0%;
+    
+}
+
+
+/* @media screen and (max-width: 790px) {
+    .prt-features > div{
+        margin: 80px auto;
+    }
+} */
+
+.prt-features > div  {
+    max-width: 400px;
+    background-color: white;
+    margin: 10px auto;
+    padding: 20px 35px;
+    box-shadow: 0px 1px 20px -10px black;
+    line-height: 50px;    
+    padding: 30px;
+} 
+
+.prt-features > div:hover {
+    color: lightblue;
+    border-bottom: 5px solid #bbdbe8;
+    cursor: pointer;
+} 
+/* 
+.prt-features > > div {
+    padding: 15px;
+    background-color: black;
+    line-height: 40px;
+}
+*/
+.prt-features > div > i {
+    font-size: 35px;
+    margin: 5px 0px;
+} 
+
+.jumbotron {
+    /* height: 300px; */
+    color: black;
+    background-color: #bbdbe8;
+}
+
+.prt-work {
+    text-align: center;
+    margin: 70px 0px;
+}
+
+.prt-work > h1 {
+    margin: 30px;
+}
+
+.prt-work > button {
+    margin: 40px 10px;
+}
+
+.collapse {
+    margin: 30px 0px;
+}
+
+.prd-service {
+    text-align: center;
+    margin-top: 50px;
+    height: 570px;
+    background: url(../media/service-bg.jpg);
+    background-size: cover;
+    padding: 5px 0px;
+    line-height: 20px;
+    color: white;
+}
+.prd-service > div > h1 {
+    margin: 30px;
+} 
+
+.prd-service-inner {
+    text-align: center;
+    padding: 10px 10%;
+    margin: 0px 0px;
+    /* padding: 10px 0px; */
+}
+
+.prd-service-inner > div {
+    background-color: #3388bf99;
+    margin: 4%;
+    width: 40px;
+    border-radius: 5px;
+    padding: 20px 0px;
+    /* height: 40px; */
+}
+
+.prd-service-inner > div > h5 {
+    margin-bottom: 15px;  
+    text-shadow: 0 0 2px black;  
+}
+
+.prd-service-inner > div > p {
+    /* margin-bottom: 15px;   */
+    text-shadow: 0 0 1px lightblue; 
+}
+
+
+
+@media screen and (max-width: 400px) {
+    .prd-service-inner > div {
+        margin: 4% 5px;
+
+    }
+}
+@media screen and (max-width: 787px) {
+    .prd-service {
+        height: 800px;
+        
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .prd-service {
+        height: 1100px;
+        
+    }
+}
+
+/* ```````````` For responsive Gallary ``````````` */
+
+.flexbin {
+    display: flex;
+    overflow: hidden;
+    flex-wrap: wrap;
+    margin: -2.5px; }
+    .flexbin:after {
+      content: '';
+      flex-grow: 999999999;
+      min-width: 300px;
+      height: 0; }
+    .flexbin > * {
+      position: relative;
+      display: block;
+      height: 300px;
+      margin: 2.5px;
+      flex-grow: 1; }
+      .flexbin > * > img {
+        height: 300px;
+        object-fit: cover;
+        max-width: 100%;
+        min-width: 100%;
+        vertical-align: bottom; }
+    .flexbin.flexbin-margin {
+      margin: 2.5px; }
+    @media (max-width: 980px) {
+      .flexbin {
+        display: flex;
+        overflow: hidden;
+        flex-wrap: wrap;
+        margin: -2.5px; }
+        .flexbin:after {
+          content: '';
+          flex-grow: 999999999;
+          min-width: 150px;
+          height: 0; }
+        .flexbin > * {
+          position: relative;
+          display: block;
+          height: 150px;
+          margin: 2.5px;
+          flex-grow: 1; }
+          .flexbin > * > img {
+            height: 150px;
+            object-fit: cover;
+            max-width: 100%;
+            min-width: 100%;
+            vertical-align: bottom; }
+        .flexbin.flexbin-margin {
+          margin: 2.5px; } }
+    @media (max-width: 400px) {
+      .flexbin {
+        display: flex;
+        overflow: hidden;
+        flex-wrap: wrap;
+        margin: -2.5px; }
+        .flexbin:after {
+          content: '';
+          flex-grow: 999999999;
+          min-width: 100px;
+          height: 0; }
+        .flexbin > * {
+          position: relative;
+          display: block;
+          height: 100px;
+          margin: 2.5px;
+          flex-grow: 1; }
+          .flexbin > * > img {
+            height: 100px;
+            object-fit: cover;
+            max-width: 100%;
+            min-width: 100%;
+            vertical-align: bottom; }
+        .flexbin.flexbin-margin {
+          margin: 2.5px; } }
+
+
+
+          
+  
